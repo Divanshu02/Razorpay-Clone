@@ -1,6 +1,8 @@
 {
   "scripts": {
-    "start": "vite"
+    "start": "vite",
+    "build": "npx tailwindcss -o dist/output.css --minify"
+
   },
   "devDependencies": {
     "autoprefixer": "^10.4.14",
